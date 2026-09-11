@@ -1,0 +1,44 @@
+Victoria Campus Food Delivery System Project Summary
+==================================================
+
+Project title:
+Victoria Campus Food Delivery System
+
+Project type:
+Python-based food delivery management system for a university campus.
+
+Aim:
+The system is designed to help an attendant manage student and staff food orders, assign riders, track delivery progress, and generate sales reports.
+
+Main features:
+- Menu with Ugandan food items and prices in UGX
+- Delivery location selection with delivery charges
+- Free delivery for large orders above UGX 30,000
+- Rider assignment and busy/available rider tracking
+- Order status updates: Pending, Assigned to Rider, Out for Delivery, Delivered
+- Sales report showing total revenue and best-selling item
+- Save and load order history using JSON
+- Cancel active order feature
+- GUI version for easier interaction
+
+Files included:
+- campus_food_delivery_system.py
+- campus_food_delivery_gui.py
+- victoria_campus_delivery_log.json
+- README.md
+
+How it works:
+1. The attendant chooses an option from the main menu.
+2. A customer order is entered with item names and quantities.
+3. The system calculates the subtotal and delivery cost.
+4. A rider is assigned automatically if available.
+5. The order status is tracked until delivery is complete.
+6. Sales details are saved and can be viewed later.
+
+Tools used:
+- Python 3
+- Tkinter (GUI version)
+- JSON file storage
+
+Project outcome:
+The system successfully demonstrates how a campus food delivery business can be managed using Python programming with basic data persistence and reporting.
